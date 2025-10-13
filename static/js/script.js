@@ -12,9 +12,8 @@ function verificarEtapa() {
 
 // Desafío 2
 function validarPassword() {
-    const correctPassword = 12345;
     let password = prompt("Ingrese la contraseña correcta");
-    if (password === correctPassword) {
+    if (password == 12345) {
         alert("Acceso permitido")
     } else {
         alert("Acceso denegado")
