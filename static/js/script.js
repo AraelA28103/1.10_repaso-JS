@@ -69,7 +69,7 @@ function temperatura() {
     if (temperatura < 10) {
         alert("Hace frío")
     } else if (temperatura > 10 && temperatura < 25) {
-        alert("Clima tempaldo")
+        alert("Clima templado")
     } else if (temperatura => 26) {
         alert("Hace calor")
     } else {
@@ -112,6 +112,7 @@ function palabraClave() {
         alert("No contiene la palabra clave")
     }
 }
+
 
 
 
